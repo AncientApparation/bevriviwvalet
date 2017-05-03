@@ -1,0 +1,171 @@
+/*fonts*/
+@font-face {
+    font-family: NexaBold;
+    src: url("../fonts/Nexa bold.otf") format("opentype");
+}
+/*end*/
+
+.header-item {
+  width: 100%;
+  overflow: hidden;
+  background-color: #7b8da1;
+  opacity: 0.52;
+  filter: alpha(opacity=52);
+  position: fixed;
+  top: 0;
+}
+.header-item .items {
+  padding: 40px;
+  box-sizing: border-box;
+}
+.header-item .items .logo {
+  display: inline-block;
+}
+.header-item .items .navbar {
+  display: inline-block;
+  font-size: 14px;
+  float: right;
+  margin-top: -3px;
+  font-family: NexaBold;
+}
+.header-item .items .navbar li {
+  display: inline-block;
+  border-left: 1px solid #FFF;
+}
+.header-item .items .navbar li:nth-of-type(6) {
+  display: inline-block;
+  border-right: 1px solid #FFF
+}
+.header-item .items .navbar li a{
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+}
+.header-item .items .navbar a {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.header-item .items .navbar ul li a:hover{
+  background: #9ca9b5;
+  padding: 20px;
+  box-sizing: border-box;
+  /*border-top: 2px solid #fff;*/
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  /*position: absolute;*/
+}
+.container {
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+.titles-item {
+  margin-top: 22px;
+}
+.titles-item .find{
+  background: #2b99d2;
+  padding-top: 16px;
+  padding-bottom: 14px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-right: 20px;
+  display: inline-block;
+  color: #fff;
+  font-family: NexaBold;
+  font-size: 14px;
+}
+.titles-item .title-body{
+  background: #757a8d;
+  padding-top: 16px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  color: #fff;
+  font-family: NexaBold;
+  font-size: 14px;
+}
+.titles-item .featured {
+  float: right;
+  background: #828ebb;
+  padding-top: 16px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  color: #fff;
+  font-family: NexaBold;
+  font-size: 14px;
+}
+.cars {
+  padding-top: 25px;
+  box-sizing: border-box;
+  background-color: #FFF;
+}
+.first-div {
+  display: inline-block;
+}
+.second-div {
+  display: inline-block;
+}
+.cars .first-div .impala{
+  width: 150px;
+  height: 150px;
+  border: 1px solid #eee;
+  padding: 35px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 20px;
+}
+.cars .first-div .impala img {
+  width: 100px;
+  height: 70px;
+  display: inline-block;
+}
+.cars .second-div .impala{
+  width: 150px;
+  height: 150px;
+  border: 1px solid #eee;
+  padding: 35px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.cars .second-div .impala img {
+  width: 100px;
+  height: 70px;
+  display: inline-block;
+}
+.looking-sell {
+  margin-top: 25px;
+}
+.looking-car {
+  width: 625px;
+  height: 100px;
+  background-color: #1b85bd;
+}
+.looking-car .fa-search {
+  color: #FFF;
+  margin-left: 30px;
+  margin-right: 25px;
+  padding: 33px 0px;
+  box-sizing: border-box;
+}
+.looking-sell .looking-car li{
+  display: inline-block;
+}
+.looking-sell .looking-car h5{
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+}
+.looking-sell .looking-car p{
+  text-transform: uppercase;
+  display: inline-block;
+  color: #92c8e4;
+}
